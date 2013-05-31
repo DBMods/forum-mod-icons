@@ -2,13 +2,13 @@
 // @name Dropbox Forum Mod Icons
 // @namespace IdeativeSoftware.Dropbox
 // @description Gives Dropbox Forum Super Users icons
-// @version 2013.8
+// @version 2013.9
 // @include https://forums.dropbox.com/*
 // @grant none
 // ==/UserScript==
 
 //Set internal version
-var internalVersion = 2013.8;
+var internalVersion = 2013.9;
 
 //Set all required variables
 var elems = document.getElementsByTagName("*"), i;
@@ -19,7 +19,7 @@ addFooter();
 //Run necessary checks and changes
 addIcon("role", "Super User", getIcon("mod"));
 postHighlight("Super User", "#fff19d");
-changeRoleName("1618104", "Master of Super Users");
+//changeRoleName("1618104", "Master of Super Users");
 
 //Modify the homepage to look like the original revamp
 //Comment out this line if you want to keep the original
